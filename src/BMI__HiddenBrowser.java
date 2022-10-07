@@ -19,7 +19,7 @@ public class BMI__HiddenBrowser {
         driver.get("https://atidcollege.co.il/Xamples/bmi/");
         WebElement weight = driver.findElement(By.id("weight"));
         WebElement height = driver.findElement(By.name("height"));
-        weight.sendKeys("160");
+        weight.sendKeys("150");
 //        Thread.sleep(1000);
         height.sendKeys("220");
 //        Thread.sleep(1000);
